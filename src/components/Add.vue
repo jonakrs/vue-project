@@ -38,6 +38,10 @@ export default {
                 
 
             });
+            if(result.status==201)
+            {
+                this.$router.push({name:'Home'});
+            }
             console.warn("result", result)
         }
 
